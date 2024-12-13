@@ -23,9 +23,9 @@ Almost anywhere in Windows where you can enter text.
 &nbsp;  
 
 ## How To: Set Up AI Tools with OpenAI API Integration
-**Creation Date: December 13, 2024**&nbsp;
-**Gudie Created By:** [Netropolitan Academy](https://netropolitan.xyz) & [Jamie Bykov-Brett](https://bykovbrett.net/)&nbsp;
-**Applications Required:** OpenAI API, AutoHotkey&nbsp;
+**Creation Date:**  December 13, 2024
+**Gudie Created By:** [Netropolitan Academy](https://netropolitan.xyz) & [Jamie Bykov-Brett](https://bykovbrett.net/) 
+**Applications Required:** OpenAI API, AutoHotkey 
 
 This comprehensive guide walks you through the steps to install and configure AI Tools, integrating OpenAI API for enhanced functionality. Follow these instructions to get started with AI-powered automation on your system.
 
