@@ -51,12 +51,7 @@ Copy this key for use in the next steps. Keep a note of it somewhere because you
 The script will prompt you to input your API key upon the first run. Alternatively, you can manually add it to the settings.ini file under the appropriate section.
 &nbsp;
 
-**2. Download and Extract Files**
-
-Navigate to the [AI Tools GitHub repository](https://github.com/Netropolitan/ai-tools-ahk) and download the latest release .zip file. Extract the contents to your desired directory.
-&nbsp;
-
-**3. Install AutoHotkey**
+**2. Install AutoHotkey**
 
 If AutoHotkey is not already installed on your system:
 
@@ -67,6 +62,11 @@ Download the latest version suitable for your system.
 Follow the installation instructions on the site.
 
 *Note: You can use the .exe version of the AI Tools script if you prefer not to install AutoHotkey. The script is portable and doesn’t require installation.*
+&nbsp;
+
+**3. Download and Extract Files**
+
+Navigate to the [AI Tools GitHub repository](https://github.com/Netropolitan/ai-tools-ahk) and download the latest release .zip file. Extract the contents to your desired directory, I would recommend adding is to the AutoHotKey directory in your documents.
 &nbsp;
 
 **4. Run the Script**
