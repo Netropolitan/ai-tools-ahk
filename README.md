@@ -25,7 +25,7 @@ Almost anywhere in Windows where you can enter text.
 ## How To: Set Up AI Tools with OpenAI API Integration
 **Creation Date:**  December 13, 2024
 
-**Gudie Created By:** [Netropolitan Academy](https://netropolitan.xyz) & [Jamie Bykov-Brett](https://bykovbrett.net/) 
+**Guide Created By:** [Netropolitan Academy](https://netropolitan.xyz) & [Jamie Bykov-Brett](https://bykovbrett.net/) 
 
 **Applications Required:** OpenAI API, AutoHotkey 
 
