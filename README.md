@@ -46,7 +46,7 @@ Sign in or create an account.
 
 Go to the API Key section and generate a new secret key.
 
-Copy this key for use in the next steps. Keep a note of it somewhere because you will need it and you won't be able to see it again after you navivate away from the key
+Copy this key for use in the next steps. Keep a note of it somewhere because you will need it and you won't be able to see it again after you navivate away from the key.
 
 The script will prompt you to input your API key upon the first run. Alternatively, you can manually add it to the settings.ini file under the appropriate section.
 &nbsp;
