@@ -1,4 +1,4 @@
-; ai-tools-ahk - AutoHotkey scripts for AI tools
+﻿; ai-tools-ahk - AutoHotkey scripts for AI tools
 ; MIT License
 
 #Requires AutoHotkey v2.0
@@ -485,11 +485,6 @@ CheckSettings() {
 LogDebug(msg) {
     if (_debug != false) {
         now := FormatTime(A_Now, "yyyy-MM-dd HH:mm:ss")
-        logMsg := "[" . now . "] " . msg . "`n"
-        FileAppend(logMsg, "./debug.log")
-    }
-}
-
         logMsg := "[" . now . "] " . msg . "`n"
         FileAppend(logMsg, "./debug.log")
     }
