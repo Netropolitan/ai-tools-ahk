@@ -1,6 +1,6 @@
 # Set Up AI Tools with OpenAI 4o-mini API Integration
 
-[Watch on YouTube](https://www.youtube.com/watch?v=NACVNdC6Fnk&t=79s)
+[Watch the video tutorial on YouTube](https://youtu.be/NACVNdC6Fnk?si=hitIs3WeqD8K1adV&t=1)
 
 ### Table of Contents
 
