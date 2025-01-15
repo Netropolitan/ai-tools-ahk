@@ -1,6 +1,6 @@
 # Set Up AI Tools with OpenAI 4o-mini API Integration
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NACVNdC6Fnk?si=2Uul23rQG-GZGBc7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Watch on YouTube](https://www.youtube.com/watch?v=NACVNdC6Fnk&t=79s)
 
 ### Table of Contents
 
