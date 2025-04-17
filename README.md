@@ -2,20 +2,21 @@
 
 [Watch the video tutorial on YouTube](https://youtu.be/NACVNdC6Fnk?si=hitIs3WeqD8K1adV&t=1)
 
-## Updates
-**17/04/25**
-- Use the OpenAI 4.1 Nano Model.
-- Give the user the choice between US or UK English corrections.
-- Legalese language translator and converter added to options.
-
 ### Table of Contents
 
+- [Updates](#updates)  
 - [What's this?](#whats-this)  
 - [Step-By-Step Guide](#Step-By-Step-Guide)  
 - [Usage](#usage)  
 - [Options](#options)  
 - [Credits](#credits)  
 &nbsp;
+
+## Updates
+**17/04/25**
+- Use the OpenAI 4.1 Nano Model.
+- Give the user the choice between US or UK English corrections.
+- Legalese language translator and converter added to options.
 
 ## What's this?  
 
