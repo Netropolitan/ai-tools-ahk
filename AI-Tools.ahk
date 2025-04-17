@@ -1,4 +1,4 @@
-﻿; ai-tools-ahk - AutoHotkey scripts for AI tools
+; ai-tools-ahk - AutoHotkey scripts for AI tools
 ; MIT License
 
 #Requires AutoHotkey v2.0
@@ -19,6 +19,20 @@ if not (FileExist("settings.ini")) {
     FileCopy("settings.ini.default", "settings.ini")
     IniWrite(api_key, ".\settings.ini", "settings", "default_api_key")
 }
+
+; ── first‑run spelling preference ──────────────────────────────
+prefEng := IniRead(".\\settings.ini", "settings", "preferred_english", "")
+if (prefEng = "") {
+   ; ask user once
+res := MsgBox("Would you like to use US or UK English spelling?`nYes = US English`nNo  = UK English"
+    , "English spelling", "YesNo")
+if (res = "Yes")
+    prefEng := "US"
+else
+    prefEng := "UK"
+    IniWrite(prefEng, ".\\settings.ini", "settings", "preferred_english")
+}
+
 RestoreCursor()
 
 ;# globals
@@ -175,7 +189,7 @@ GetBody(mode, promptName, prompt, input, promptEnd) {
     stop := GetSetting(promptName, "stop", stop)
 
     ; Combine prompt, input, and promptEnd
-    content := prompt . input . promptEnd
+    content := ApplyLangNote(prompt . input . promptEnd)
     prompt_system := GetSetting(promptName, "prompt_system", "")
 
     ; Construct messages array
@@ -488,4 +502,12 @@ LogDebug(msg) {
         logMsg := "[" . now . "] " . msg . "`n"
         FileAppend(logMsg, "./debug.log")
     }
+}
+
+; Adds the UK‑spelling note only if the user chose UK
+ApplyLangNote(text) {
+    pref := IniRead(".\\settings.ini", "settings", "preferred_english", "US")
+    if (pref = "UK")
+        return "Use UK English spelling, but avoid British‑specific content or slang.`n" . text
+    return text
 }
