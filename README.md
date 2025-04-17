@@ -3,7 +3,7 @@
 [Watch the video tutorial on YouTube](https://youtu.be/NACVNdC6Fnk?si=hitIs3WeqD8K1adV&t=1)
 
 ## Updates
-*17/04/25*
+**17/04/25**
 - Use the OpenAI 4.1 Nano Model.
 - Give the user the choice between US or UK English corrections.
 - Legalese language translator and converter added to options.
