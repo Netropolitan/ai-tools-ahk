@@ -1,6 +1,12 @@
-# Set Up AI Tools with OpenAI 4o-mini API Integration
+# Set Up AI Tools with OpenAI 4.1 Nano API Integration
 
 [Watch the video tutorial on YouTube](https://youtu.be/NACVNdC6Fnk?si=hitIs3WeqD8K1adV&t=1)
+
+## Updates
+*17/04/25*
+- Use the OpenAI 4.1 Nano Model.
+- Give the user the choice between US or UK English corrections.
+- Legalese language translator and converter added to options.
 
 ### Table of Contents
 
@@ -140,7 +146,7 @@ OpenAI and Azure OpenAI API's are supported.
         /openai/deployments/*/chat/completions (Azure)
 
     Models:
-        gpt4o-mini
+        gpt4.1-nano
 &nbsp;
 
 ## Compatibility
